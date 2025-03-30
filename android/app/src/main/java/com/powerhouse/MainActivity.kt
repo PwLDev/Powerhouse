@@ -1,4 +1,4 @@
-package com.powerhouse
+package com.purriau.aipowerhouse
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

@@ -1,4 +1,4 @@
-package com.powerhouse
+package com.purriau.aipowerhouse
 
 import android.app.Application
 import com.facebook.react.PackageList
