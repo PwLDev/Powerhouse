@@ -4,6 +4,10 @@
     {
       "path": "assets/fonts/Inter.ttf",
       "sha1": "ee5c2e22ffeddefc433c9aa4c76779bb73a5c682"
+    },
+    {
+      "path": "assets/icons/powerhouse.svg",
+      "sha1": "b474d49f59a144db32b6ccbe824f8612b16a8903"
     }
   ]
 }

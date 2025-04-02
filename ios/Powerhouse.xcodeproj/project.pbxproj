@@ -12,6 +12,7 @@
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		6A11A41C20AF47CBBA8D6ECA /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A339B70AC4F4A9CACD88743 /* Inter.ttf */; };
+		2CF8C4762C2F4354B71E197E /* powerhouse.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA66F7C16704EE5B517B111 /* powerhouse.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "Powerhouse/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		2A339B70AC4F4A9CACD88743 /* Inter.ttf */ = {isa = PBXFileReference; name = "Inter.ttf"; path = "../assets/fonts/Inter.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3CA66F7C16704EE5B517B111 /* powerhouse.svg */ = {isa = PBXFileReference; name = "powerhouse.svg"; path = "../assets/icons/powerhouse.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = "PBXGroup";
 			children = (
 				2A339B70AC4F4A9CACD88743 /* Inter.ttf */,
+				3CA66F7C16704EE5B517B111 /* powerhouse.svg */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				6A11A41C20AF47CBBA8D6ECA /* Inter.ttf in Resources */,
+				2CF8C4762C2F4354B71E197E /* powerhouse.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +311,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Powerhouse/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "Powerhouse";
+				INFOPLIST_KEY_CFBundleDisplayName = "Powerhouse";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -335,7 +339,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = "Powerhouse/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "Powerhouse";
+				INFOPLIST_KEY_CFBundleDisplayName = "Powerhouse";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
