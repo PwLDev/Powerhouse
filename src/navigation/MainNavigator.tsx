@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-import AppIntro from "../screens/Intro";
+import AppIntro from "../screens/intro/intro";
 
 const Stack = createNativeStackNavigator();
 
