@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { StyleSheet, Text, View } from "react-native";
+import { Animated, StyleSheet, Text, useAnimatedValue, View } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 
 export const Slide1 = () => {
@@ -9,10 +9,10 @@ export const Slide1 = () => {
     return (
         <LinearGradient
             colors={["#668ee6", "#a154df"]}
-            start={{ x: 0.35, y: 0 }}
+            start={{ x: 0.2, y: -0.2 }}
             style={styles.gradient}>
             <View style={styles.container}>
-                <Text>{t("intro.welcome")}</Text>
+                <Text style={styles.subtitle}>{t("intro.welcome")}</Text>
                 <Text style={styles.title}>Powerhouse</Text>
             </View>
         </LinearGradient>
@@ -21,15 +21,20 @@ export const Slide1 = () => {
 
 const styles = StyleSheet.create({
     container: {
-        margin: 15
+        flex: 1,
+        margin: 20
     },
     gradient: {
         flex: 1,
-        color: "white"
+    },
+    subtitle: {
+        color: "white",
+        fontFamily: "Inter Regular",
+        fontSize: 18
     },
     title: {
         color: "white",
-        fontSize: 36,
+        fontSize: 40,
         fontFamily: "Inter Bold"
     }
 });

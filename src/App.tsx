@@ -1,4 +1,5 @@
 import React from "react";
+import { Text } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { NavigationContainer } from "@react-navigation/native";
 import MainNavigator from "./navigation/mainNavigator";

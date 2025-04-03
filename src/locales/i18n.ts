@@ -4,10 +4,12 @@ import * as RNLocalize from "react-native-localize";
 
 import en from "./en.json";
 import es from "./es.json";
+import fr from "./fr.json";
 
 const resources = {
     en: { translation: en },
-    es: { translation: es }
+    es: { translation: es },
+    fr: { translation: fr },
 }
 
 const fallbackLng = "en";
@@ -26,7 +28,6 @@ i18next
     .init({
         resources,
         fallbackLng,
-        keySeparator: false,
         interpolation: { escapeValue: false }
     });
 
