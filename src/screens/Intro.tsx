@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     },
     subtitle: {
         color: "white",
-        fontFamily: "Inter Regular",
+        fontFamily: "Inter Bold",
         fontSize: 16
     },
     title: {
