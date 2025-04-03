@@ -1,19 +1,38 @@
 import React from "react";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
+import { LinearGradient } from "react-native-linear-gradient";
 
 const AppIntro = () => {
     return (
-        <View style={styles.container}>
+        <LinearGradient
+            colors={["#668ee6", "#a154df"]}
+            start={{ x: 0.35, y: 0 }}
+            style={styles.view}>
+                <View style={styles.container}>
 
-        </View>
+                </View>
+        </LinearGradient>
     );
 }
-
 const styles = StyleSheet.create({
     container: {
         alignContent: "center",
         display: "flex",
-        margin: 10
+        margin: 15
+    },
+    subtitle: {
+        color: "white",
+        fontFamily: "Inter Regular",
+        fontSize: 16
+    },
+    title: {
+        color: "white",
+        fontFamily: "Inter Bold",
+        fontSize: 36,
+        fontWeight: "600"
+    },
+    view: {
+        flex: 1
     }
 });
 

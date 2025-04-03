@@ -9,27 +9,27 @@ const Stack = createNativeStackNavigator();
 const MainNavigator = () => {
     const [initialRoute, setInitialRoute] = useState<string | null>(null);
 
-    useEffect(() => {
-        const checkLaunched = async () => {
-            const hasLaunched = AsyncStorage.getItem("launched");
+    // useEffect(() => {
+    //     const checkLaunched = async () => {
+    //         const hasLaunched = AsyncStorage.getItem("launched");
 
-            if (hasLaunched == null) {
-                await AsyncStorage.setItem("launched", "true");
-                setInitialRoute("AppIntro");
-            } else {
-                setInitialRoute("ModeSelection");
-            }
-        }
+    //         if (hasLaunched == null) {
+    //             await AsyncStorage.setItem("launched", "true");
+    //             setInitialRoute("AppIntro");
+    //         } else {
+    //             setInitialRoute("ModeSelection");
+    //         }
+    //     }
 
-        checkLaunched();
-    }, []);
+    //     checkLaunched();
+    // }, []);
 
-    if (initialRoute == null) return;
+    // if (initialRoute == null) return;
 
     return (
         <Stack.Navigator
             screenOptions={{ headerShown: false }}
-            initialRouteName="ModeSelection">
+            initialRouteName="AppIntro">
             <Stack.Screen
                 name="AppIntro"
                 component={AppIntro} />
