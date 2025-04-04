@@ -4,25 +4,21 @@ import { Animated, StyleSheet, Text, useAnimatedValue, View } from "react-native
 import LinearGradient from "react-native-linear-gradient";
 import Svg, { Image } from "react-native-svg";
 
+import Powerhouse from "../../icons/powerhouse.svg";
+
 export const Slide1 = () => {
     const { t, i18n } = useTranslation();
 
     return (
-        <LinearGradient
-            colors={["#668ee6", "#a154df"]}
-            start={{ x: 0.2, y: -0.2 }}
-            style={styles.gradient}>
-            <View style={styles.container}>
-                <Svg
-                    width={200}
-                    height={200}>
-                    <Image href={require("./icons/powerhouse.svg")}/>
-                </Svg>
+        <View style={styles.container}>
+            <Powerhouse
+                height={270}
+                style={styles.icon} />
 
-                <Text style={styles.subtitle}>{t("intro.welcome")}</Text>
-                <Text style={styles.title}>Powerhouse</Text>
-            </View>
-        </LinearGradient>
+            <Text style={styles.subtitle}>{t("intro.welcome")}</Text>
+            <Text style={styles.title}>Powerhouse</Text>
+            <Text style={styles.quote}>{t("intro.quote")}</Text>
+        </View>
     );
 }
 
@@ -31,8 +27,18 @@ const styles = StyleSheet.create({
         flex: 1,
         margin: 20
     },
+    icon: {
+        marginHorizontal: "auto",
+        marginVertical: "25%"
+    },
     gradient: {
         flex: 1,
+    },
+    quote: {
+        color: "white",
+        fontFamily: "Inter Italic",
+        fontSize: 18,
+        marginTop: 10
     },
     subtitle: {
         color: "white",

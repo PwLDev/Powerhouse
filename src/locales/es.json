@@ -1,6 +1,7 @@
 {
     "locale": "Español",
     "intro": {
-        "welcome": "Bienvenido a"
+        "welcome": "Bienvenido a",
+        "quote": "Su caja de herramientas de IA gratuita, privada y confiable."
     }
 }

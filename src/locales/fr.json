@@ -1,6 +1,7 @@
 {
     "locale": "Français",
     "intro": {
-        "welcome": "Bienvenue sur"
+        "welcome": "Bienvenue sur",
+        "quote": "Votre boîte à outils d'IA gratuite, privé et source ouverte."
     }
 }

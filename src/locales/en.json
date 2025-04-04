@@ -1,6 +1,7 @@
 {
     "locale": "English",
     "intro": {
-        "welcome": "Welcome to"
+        "welcome": "Welcome to",
+        "quote": "Your free, private and open source AI toolbox."
     }
 }
