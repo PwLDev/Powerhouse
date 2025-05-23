@@ -1,7 +1,42 @@
 {
     "locale": "Español",
+    "about": {
+        "pollinations": "Potenciado por Pollinations.AI",
+        "react": "Creado con React Native 0.78",
+        "quote": "IA siempre gratuita, privada y fuente abierta",
+        "title": "Acerca",
+        "version": "Versión"
+    },
+    "chat": {
+        "input": "Escribe un mensaje",
+        "new": "Nuevo chat",
+        "select": "Seleccionar texto",
+        "temporary": "Chat temporal"
+    },
+    "error": {
+        "connection": {
+            "title": "Error de conexión",
+            "description": "No se pudo conectar al servidor. Asegúrate que tienes conexión a Internet o inténtalo de nuevo más tarde."
+        }
+    },
     "intro": {
         "welcome": "Bienvenido a",
-        "quote": "Su caja de herramientas de IA gratuita, privada y confiable."
+        "quote": "Tu caja de herramientas de IA gratuita, privada y de código abierto.",
+        "button": "¡Vamos!"
+    },
+    "settings": {
+        "title": "Ajustes",
+        "sections": {
+            "general": "General"
+        },
+        "haptics": {
+            "name": "Retroalimentación háptica",
+            "description": "Recibir una vibración háptica a partir de ciertas acciones."
+        }
+    },
+    "tts": {
+        "attitude": "Actitud",
+        "engine": "Motor TTS",
+        "title": "Texto a voz"
     }
 }

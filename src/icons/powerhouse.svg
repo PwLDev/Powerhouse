@@ -13,7 +13,7 @@
    xmlns:svg="http://www.w3.org/2000/svg"><defs
      id="defs1" /><g
      id="layer1"
-     transform="translate(-0.2660798,4.324971)"><path
+     transform="matrix(1.1879104,0,0,1.1879104,-33.200399,-27.746641)"><path
        id="rect1"
        style="fill:#e5e5e5;fill-opacity:1;stroke-width:0.208538;stroke-opacity:0"
        d="M 65.796204,155.66167 H 284.2038 v 129.84531 a 26.779692,26.779692 135 0 1 -26.77969,26.77969 l -164.848214,0 A 26.779692,26.779692 45 0 1 65.796204,285.50698 Z"

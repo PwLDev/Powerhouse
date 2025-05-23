@@ -1,7 +1,45 @@
 {
     "locale": "English",
+    "about": {
+        "pollinations": "Powered by Pollinations.AI",
+        "react": "Made with React Native 0.78",
+        "quote": "Always free, private and open source AI",
+        "title": "About",
+        "version": "Version"
+    },
+    "chat": {
+        "input": "Type a message",
+        "new": "New Chat",
+        "select": "Select Text",
+        "temporary": "Temporary Chat"
+    },
+    "error": {
+        "connection": {
+            "title": "Connection Error",
+            "description": "Could not connect to the server. Make sure you are connected to the Internet or try again later."
+        }
+    },
+    "generic": {
+        "input": "Input"
+    },
     "intro": {
         "welcome": "Welcome to",
-        "quote": "Your free, private and open source AI toolbox."
+        "quote": "Your free, private and open source AI toolbox.",
+        "button": "Let's go!"
+    },
+    "settings": {
+        "title": "Settings",
+        "sections": {
+            "general": "General"
+        },
+        "haptics": {
+            "name": "Haptic Feedback",
+            "description": "Receive a haptic vibration upon certain actions."
+        }
+    },
+    "tts": {
+        "attitude": "Attitude",
+        "engine": "TTS Engine",
+        "title": "Text to Speech"
     }
 }

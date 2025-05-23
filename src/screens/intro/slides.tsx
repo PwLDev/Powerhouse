@@ -1,20 +1,17 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
-import { Animated, StyleSheet, Text, useAnimatedValue, View } from "react-native";
-import LinearGradient from "react-native-linear-gradient";
-import Svg, { Image } from "react-native-svg";
+import { StyleSheet, Text, View } from "react-native";
 
 import Powerhouse from "../../icons/powerhouse.svg";
 
 export const Slide1 = () => {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
     return (
         <View style={styles.container}>
             <Powerhouse
                 height={270}
                 style={styles.icon} />
-
             <Text style={styles.subtitle}>{t("intro.welcome")}</Text>
             <Text style={styles.title}>Powerhouse</Text>
             <Text style={styles.quote}>{t("intro.quote")}</Text>

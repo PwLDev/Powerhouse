@@ -1,7 +1,36 @@
 {
     "locale": "Français",
+    "about": {
+        "pollinations": "Potenciado por Pollinations.AI",
+        "react": "Crée avec React Native 0.78",
+        "quote": "IA toujours gratuit, privé et source ouverte",
+        "title": "Information",
+        "version": "Version"
+    },
+    "chat": {
+        "input": "Écrivez un message",
+        "new": "Nouveau discussion",
+        "select": "Seleccionar texto",
+        "temporary": "Discussion temporaire"
+    },
     "intro": {
         "welcome": "Bienvenue sur",
-        "quote": "Votre boîte à outils d'IA gratuite, privé et source ouverte."
+        "quote": "Votre boîte à outils d'IA gratuite, privé et source ouverte.",
+        "button": "Allons-y !"
+    },
+    "settings": {
+        "title": "Paramètres",
+        "sections": {
+            "general": "Général"
+        },
+        "haptics": {
+            "name": "Retour haptique",
+            "description": "Recevez une vibration haptique de certaines actions."
+        }
+    },
+    "tts": {
+        "attitude": "Attitude",
+        "engine": "Moteur TTS",
+        "title": "Synthèse vocale"
     }
 }

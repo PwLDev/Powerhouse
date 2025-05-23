@@ -8,16 +8,26 @@ import MainNavigator from "./navigation/mainNavigator";
 
 const App = () => {
     return (
-        <React.StrictMode>
+        <NavigationContainer>
             <SafeAreaProvider>
-                <NavigationContainer>
-                    <I18nextProvider i18n={i18n}>
-                        <MainNavigator />
-                    </I18nextProvider>
-                </NavigationContainer>
+                <I18nextProvider i18n={i18n}>
+                    <MainNavigator />
+                </I18nextProvider>
             </SafeAreaProvider>
-        </React.StrictMode>
+        </NavigationContainer>
     );
 }
 
 export default App;
+
+declare global {
+    interface RequestInit {
+        /**
+         * @description Polyfilled to enable text ReadableStream for React Native:
+         * @link https://github.com/facebook/react-native/issues/27741#issuecomment-2362901032
+         */
+        reactNative?: {
+            textStreaming: boolean;
+        };
+    }
+}

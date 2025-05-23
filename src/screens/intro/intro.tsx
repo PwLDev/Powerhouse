@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { StyleSheet, Text, TouchableNativeFeedback, View } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -6,9 +7,10 @@ import Swiper from "react-native-swiper";
 import { useNavigation } from "@react-navigation/native";
 
 import { Slide1 } from "./slides";
-import { AppIntroNavigationProp } from "../types";
+import { AppIntroNavigationProp } from "../../navigation/screens";
 
 const AppIntro = () => {
+    const { t, i18n } = useTranslation();
     const navigation = useNavigation<AppIntroNavigationProp>();
 
     return (
@@ -23,11 +25,11 @@ const AppIntro = () => {
                     style={{ flex: 1 }}>
                     <Slide1 />
                 </Swiper>
-                <TouchableNativeFeedback>
+                <TouchableNativeFeedback
+                    onPress={() => navigation.popTo("Chat", { id: undefined })}>
                     <View style={styles.button}>
                         <Text
-                            onPress={() => navigation.navigate("Chat")}
-                            style={{ fontFamily: "Inter Regular", fontSize: 18 }}>Let's go!</Text>
+                            style={{ fontFamily: "Inter Regular", fontSize: 18 }}>{t("intro.button")}</Text>
                     </View>
                 </TouchableNativeFeedback>
             </SafeAreaView>
